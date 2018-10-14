@@ -1,5 +1,5 @@
 {
-	"name": "vscode-languageserver-types",
+	"name": "@types/vscode-languageserver-types",
 	"description": "Types used by the Language server for node",
 	"version": "3.13.0",
 	"author": "Microsoft Corporation",
@@ -11,7 +11,7 @@
 	"bugs": {
 		"url": "https://github.com/Microsoft/vscode-languageserver-node/issues"
 	},
-	"typings": "./lib/umd/main",
+	"typings": "./lib/umd/main.d.ts",
 	"scripts": {
 		"prepublishOnly": "npm run clean && npm run compile-esm && npm run compile && npm run test",
 		"postpublish": "node ../build/npm/post-publish.js",
